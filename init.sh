@@ -10,15 +10,17 @@ if [ ! -e ${BOOTSTRAP_PATH} ]; then
 fi
 
 cat <<EOF >> ${BOOTSTRAP_PATH}
+// For CakePHP Bootstraps-ini
 switch (env('CAKE_ENV_MODE')) {
     case 'development':
-        // development
-        require('Bootstrap/development_bootstrap.php');
+        require('Bootstraps/development_bootstrap.php');
+        break;
+    case 'staging':
+        require('Bootstraps/staging_bootstrap.php');
         break;
     case 'production':
     default:
-        // production
-        require('Bootstrap/production_bootstrap.php');
+        require('Bootstraps/production_bootstrap.php');
         break;
 }
 EOF
