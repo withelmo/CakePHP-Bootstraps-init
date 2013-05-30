@@ -1,6 +1,6 @@
 {
     "name": "withelmo/bootstraps-init",
-    "type": "cakephp-config",
+    "type": "library",
     "description": " for CakePHP",
     "keywords": ["cakephp","multi-bootstraps"],
     "homepage": "https://github.com/withelmo/CakePHP-Bootstraps-init",
