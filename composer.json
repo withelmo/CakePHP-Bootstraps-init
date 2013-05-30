@@ -1,0 +1,17 @@
+{
+    "name": "withelmo/bootstraps-init",
+    "type": "cakephp-config",
+    "description": " for CakePHP",
+    "keywords": ["cakephp","multi-bootstraps"],
+    "homepage": "https://github.com/withelmo/CakePHP-Bootstraps-init",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shintarto Sugimoto",
+            "email": "withelmo@gmail.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "*"
+    }
+}
